@@ -1,0 +1,76 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 9d5c9b65-fa9a-4f2b-b8e4-a4447f224f28)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "GA Fuelstation RFID Terminal" (at 193.04 175.26 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid ab1eb372-ca4a-45ad-ba86-45dee7b982d7)
+  )
+
+  (sheet (at 97.79 111.76) (size 48.26 48.26) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3fe47dfa-b184-478e-8a53-8cc5e5cfa822)
+    (property "Sheetname" "Interfaces" (at 97.79 111.0484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "interfaces.kicad_sch" (at 97.79 160.6046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "GA_Fuelstation_Terminal"
+        (path "/9d5c9b65-fa9a-4f2b-b8e4-a4447f224f28" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 33.02 111.76) (size 44.45 48.26) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6058d083-e7f5-4508-aa8b-d465d175758b)
+    (property "Sheetname" "ESP32" (at 33.02 111.0484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "esp32.kicad_sch" (at 33.02 160.6046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Feld2" "" (at 33.02 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "GA_Fuelstation_Terminal"
+        (path "/9d5c9b65-fa9a-4f2b-b8e4-a4447f224f28" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 189.23 97.79) (size 71.12 55.88) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 93d867b5-46d3-4401-8a12-5d31278231a8)
+    (property "Sheetname" "Power Supply" (at 189.23 97.0784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "powersupply.kicad_sch" (at 189.23 154.2546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Feld2" "" (at 189.23 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "GA_Fuelstation_Terminal"
+        (path "/9d5c9b65-fa9a-4f2b-b8e4-a4447f224f28" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

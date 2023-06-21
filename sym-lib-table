@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Espressif")(type "KiCad")(uri "D:/KICAD_LIB/kicad-libraries/libraries/Espressif.kicad_sym")(options "")(descr ""))
+  (lib (name "GA_Fuelstation_Terminal")(type "KiCad")(uri "${KIPRJMOD}/GA_Fuelstation_Terminal.kicad_sym")(options "")(descr ""))
+)
