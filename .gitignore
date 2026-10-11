@@ -20,6 +20,9 @@ plots/
 *-backup
 GA_Fuelstation_Terminal-backups/
 
+# Lokale Historie
+.his*ory/
+
 * Python Cache
 __pycache__/
 ``*
