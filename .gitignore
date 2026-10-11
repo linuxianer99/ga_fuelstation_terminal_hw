@@ -1,1 +1,25 @@
 production
+# Backup-Dateien
+*.bak
+*-bak
+
+# Autosave
+*.k*c*d_sch-b*k
+*.sch-bak
+
+# Netlists
+*.net
+
+# T*mporäre Dateien
+*.tmp
+
+# Plot-Ausg*ben
+plots/
+
+# Backups
+*-backup
+GA_Fuelstation_Terminal-backups/
+
+* Python Cache
+__pycache__/
+``*
