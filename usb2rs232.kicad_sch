@@ -1952,6 +1952,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2088,6 +2227,12 @@
 			(justify left bottom)
 		)
 		(uuid "ab43c59b-cf55-43b5-9be0-90d360db4275")
+	)
+	(junction
+		(at 68.58 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0070dae2-2563-40dc-b318-bb7aa611961f")
 	)
 	(junction
 		(at 66.04 74.93)
@@ -2229,6 +2374,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 64.77) (xy 68.58 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0316e4d9-53aa-4594-9488-3e54e8512885")
+	)
+	(wire
+		(pts
 			(xy 50.8 69.85) (xy 54.61 69.85)
 		)
 		(stroke
@@ -2309,7 +2464,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 21.59) (xy 191.77 21.59)
+			(xy 182.88 21.59) (xy 195.58 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2396,6 +2551,16 @@
 			(type default)
 		)
 		(uuid "35f652bc-60b0-4b12-ba4d-ee57dbb685ff")
+	)
+	(wire
+		(pts
+			(xy 50.8 62.23) (xy 54.61 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab99b42-bc80-4dc5-815d-589f9d1ea919")
 	)
 	(wire
 		(pts
@@ -2609,6 +2774,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 62.23) (xy 68.58 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765b867a-1152-40e5-b66a-318f981c1690")
+	)
+	(wire
+		(pts
 			(xy 100.33 55.88) (xy 100.33 52.07)
 		)
 		(stroke
@@ -2716,6 +2891,16 @@
 			(type default)
 		)
 		(uuid "949dd3ed-b54d-4266-b2d1-cbf705678cc2")
+	)
+	(wire
+		(pts
+			(xy 203.2 21.59) (xy 208.28 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b8a6e3-81fb-4ec7-b4b8-4022de85a59c")
 	)
 	(wire
 		(pts
@@ -2839,6 +3024,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 21.59) (xy 208.28 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba4314b9-261a-44f7-b0b1-cc8e8036d2d6")
+	)
+	(wire
+		(pts
 			(xy 50.8 74.93) (xy 54.61 74.93)
 		)
 		(stroke
@@ -2846,6 +3041,16 @@
 			(type default)
 		)
 		(uuid "bc7dcf12-8fb0-4a11-814e-560812c49bec")
+	)
+	(wire
+		(pts
+			(xy 50.8 64.77) (xy 54.61 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9802c7d-32ba-4940-9378-d0a6a449d176")
 	)
 	(wire
 		(pts
@@ -2916,6 +3121,16 @@
 			(type default)
 		)
 		(uuid "dcad8e1c-2ac7-4c32-8d4c-cf86b12a5cec")
+	)
+	(wire
+		(pts
+			(xy 62.23 62.23) (xy 68.58 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3613896-061b-4e96-af15-68fe5b2d5323")
 	)
 	(wire
 		(pts
@@ -3240,6 +3455,83 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a5fe0f7-0880-4af3-94f7-1983cb74a8ae")
+		(property "Reference" "#PWR050"
+			(at 68.58 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.882 66.802 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ca6a037-c433-4182-b51c-f46e35d93a06")
+		)
+		(instances
+			(project "GA_Fuelstation_Terminal"
+				(path "/9d5c9b65-fa9a-4f2b-b8e4-a4447f224f28/c019e730-735f-48ab-8d3f-6492baa2144f"
+					(reference "#PWR050")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4161,6 +4453,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 58.42 62.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6be0ee4a-ef63-4d1e-86b7-f0a796ffad24")
+		(property "Reference" "R23"
+			(at 58.42 60.198 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 58.42 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 58.42 64.008 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 58.42 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0110c451-34d3-4add-9938-cc13638ec190")
+		)
+		(pin "1"
+			(uuid "6e8bfac3-9256-4d8a-a69b-cf1d0560fac2")
+		)
+		(instances
+			(project "GA_Fuelstation_Terminal"
+				(path "/9d5c9b65-fa9a-4f2b-b8e4-a4447f224f28/c019e730-735f-48ab-8d3f-6492baa2144f"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 110.49 48.26 0)
 		(unit 1)
@@ -4721,6 +5092,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 208.28 19.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dfc3c92-1569-41bc-a66e-70dc7a7db55e")
+		(property "Reference" "#PWR051"
+			(at 208.28 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 208.28 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 208.28 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56ecb32d-9536-4a1f-8dcd-405cfb9bbb75")
+		)
+		(instances
+			(project "GA_Fuelstation_Terminal"
+				(path "/9d5c9b65-fa9a-4f2b-b8e4-a4447f224f28/c019e730-735f-48ab-8d3f-6492baa2144f"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Q_NPN")
 		(at 105.41 143.51 0)
 		(unit 1)
@@ -4800,6 +5249,85 @@
 			(project "GA_Fuelstation_Terminal"
 				(path "/9d5c9b65-fa9a-4f2b-b8e4-a4447f224f28/c019e730-735f-48ab-8d3f-6492baa2144f"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 64.77 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba3bd68a-7611-4335-9fe5-1a607d87caf3")
+		(property "Reference" "R24"
+			(at 58.674 67.056 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 58.42 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 58.42 66.548 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 58.42 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b751df82-8d4e-4583-806a-92da44b2faca")
+		)
+		(pin "1"
+			(uuid "9f42dc10-a135-48bf-a578-1c42340023fd")
+		)
+		(instances
+			(project "GA_Fuelstation_Terminal"
+				(path "/9d5c9b65-fa9a-4f2b-b8e4-a4447f224f28/c019e730-735f-48ab-8d3f-6492baa2144f"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -5371,6 +5899,85 @@
 			(project "GA_Fuelstation_Terminal"
 				(path "/9d5c9b65-fa9a-4f2b-b8e4-a4447f224f28/c019e730-735f-48ab-8d3f-6492baa2144f"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 199.39 21.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc18748b-ca22-4dd8-abe1-7c2a81bfc9a6")
+		(property "Reference" "R25"
+			(at 199.39 19.304 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 199.39 21.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 199.39 23.368 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 199.39 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0894eee6-c2fc-421c-88d0-29dfb340e7fa")
+		)
+		(pin "1"
+			(uuid "4e9b0bfa-a2bc-42a1-b023-3300b38ebeb1")
+		)
+		(instances
+			(project "GA_Fuelstation_Terminal"
+				(path "/9d5c9b65-fa9a-4f2b-b8e4-a4447f224f28/c019e730-735f-48ab-8d3f-6492baa2144f"
+					(reference "R25")
 					(unit 1)
 				)
 			)

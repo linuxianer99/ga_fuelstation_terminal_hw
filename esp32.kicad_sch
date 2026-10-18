@@ -3269,6 +3269,12 @@
 		(uuid "5dbdd187-0736-4ea1-969e-6587ff57e69c")
 	)
 	(junction
+		(at 148.59 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "644f38e5-8fb7-4330-92ac-508008a02525")
+	)
+	(junction
 		(at 229.87 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3310,6 +3316,72 @@
 		(color 0 0 0 0)
 		(uuid "fd9d0fbe-e58c-48bd-872e-c1e011ec9056")
 	)
+	(junction
+		(at 138.43 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdafbcf6-cb44-41cd-9953-137f662fe567")
+	)
+	(no_connect
+		(at 66.04 105.41)
+		(uuid "0155855c-0d6b-44c3-b08c-6541ef0a015a")
+	)
+	(no_connect
+		(at 66.04 100.33)
+		(uuid "0c3d08de-12a9-4d6a-95cf-1202878b5868")
+	)
+	(no_connect
+		(at 54.61 143.51)
+		(uuid "17620c15-9420-42ae-bfc5-e2921bb5ace3")
+	)
+	(no_connect
+		(at 157.48 105.41)
+		(uuid "43be625c-fb83-4b5b-a4b1-f81adc6ecad7")
+	)
+	(no_connect
+		(at 69.85 176.53)
+		(uuid "47c61976-b75a-4e1e-813c-fe88322ffafc")
+	)
+	(no_connect
+		(at 69.85 153.67)
+		(uuid "63befbec-a55c-4102-9b99-2b63c8ca9a07")
+	)
+	(no_connect
+		(at 69.85 158.75)
+		(uuid "6a86fde7-6332-4938-9958-d5a7c88e0c34")
+	)
+	(no_connect
+		(at 157.48 102.87)
+		(uuid "a15285ee-8a17-4ee2-8089-c93287e0f788")
+	)
+	(no_connect
+		(at 157.48 87.63)
+		(uuid "be981ba5-a5af-4692-90ee-ccae6f00c281")
+	)
+	(no_connect
+		(at 69.85 173.99)
+		(uuid "c00c3cfe-355b-402c-8acf-b3b0af231529")
+	)
+	(no_connect
+		(at 157.48 90.17)
+		(uuid "cad5ff6e-5bb7-4835-b88d-75cd6a160194")
+	)
+	(no_connect
+		(at 157.48 95.25)
+		(uuid "ce7e2483-2841-4305-856e-0242bb49def9")
+	)
+	(no_connect
+		(at 66.04 102.87)
+		(uuid "ec012459-8f4d-486e-a62b-f8fc034aa497")
+	)
+	(no_connect
+		(at 157.48 97.79)
+		(uuid "ed16ce7f-8fa1-46d5-9f54-0e938f155746")
+	)
+	(no_connect
+		(at 157.48 100.33)
+		(uuid "f4cb20fe-17d0-4488-a566-7d544397fdf0")
+	)
 	(wire
 		(pts
 			(xy 148.59 151.13) (xy 148.59 154.94)
@@ -3332,7 +3404,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 176.53) (xy 148.59 179.07)
+			(xy 148.59 176.53) (xy 148.59 180.34)
 		)
 		(stroke
 			(width 0)
@@ -3482,16 +3554,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 44.45) (xy 233.68 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b82217c-3ddf-44f1-bb47-9e7e63ba3d9e")
-	)
-	(wire
-		(pts
 			(xy 54.61 41.91) (xy 66.04 41.91)
 		)
 		(stroke
@@ -3592,16 +3654,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 39.37) (xy 240.03 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56dea30e-cc1a-4727-b9b2-a63b31e65fe3")
-	)
-	(wire
-		(pts
 			(xy 69.85 161.29) (xy 76.2 161.29)
 		)
 		(stroke
@@ -3609,6 +3661,16 @@
 			(type default)
 		)
 		(uuid "59b67982-f5ca-4c5e-bd66-0b6dea156f37")
+	)
+	(wire
+		(pts
+			(xy 233.68 35.56) (xy 233.68 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a2885f2-b974-4d70-97e9-17d44f454461")
 	)
 	(wire
 		(pts
@@ -3762,6 +3824,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 171.45) (xy 138.43 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae9bb83-37fa-4fa7-a43a-c92349556c23")
+	)
+	(wire
+		(pts
 			(xy 52.07 184.15) (xy 52.07 186.69)
 		)
 		(stroke
@@ -3769,6 +3841,16 @@
 			(type default)
 		)
 		(uuid "8e34e2ec-ff3a-4fde-ace1-66bb0a9fe259")
+	)
+	(wire
+		(pts
+			(xy 138.43 180.34) (xy 148.59 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9267ba0c-61b0-4d19-b37e-72ed63af85ad")
 	)
 	(wire
 		(pts
@@ -3809,6 +3891,16 @@
 			(type default)
 		)
 		(uuid "9bf04615-1441-4759-95cb-abf868372421")
+	)
+	(wire
+		(pts
+			(xy 240.03 35.56) (xy 240.03 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c00bb64-ea73-4438-8095-a6d90ee6ec2c")
 	)
 	(wire
 		(pts
@@ -3892,13 +3984,23 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 171.45) (xy 140.97 171.45)
+			(xy 135.89 171.45) (xy 138.43 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b2852ede-fc79-400a-bd33-243fc355f63e")
+	)
+	(wire
+		(pts
+			(xy 138.43 171.45) (xy 140.97 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2deeb4b-2495-4525-b176-f81b5d845a05")
 	)
 	(wire
 		(pts
@@ -3989,6 +4091,16 @@
 			(type default)
 		)
 		(uuid "ce91b161-d290-47b9-ac1b-1d4240fb69d4")
+	)
+	(wire
+		(pts
+			(xy 148.59 180.34) (xy 148.59 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1358c54-1ddc-46d7-9eba-53e184dfe08c")
 	)
 	(wire
 		(pts
@@ -5013,6 +5125,83 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 34.29 19.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07081317-1429-43f3-9525-24e4da8d3365")
+		(property "Reference" "#PWR053"
+			(at 34.29 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 34.29 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c3a4c6c2-440c-4342-8184-6613dd8b3b37")
+		)
+		(instances
+			(project "GA_Fuelstation_Terminal"
+				(path "/9d5c9b65-fa9a-4f2b-b8e4-a4447f224f28/6058d083-e7f5-4508-aa8b-d465d175758b"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 111.76 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -5083,6 +5272,83 @@
 			(project "GA_Fuelstation_Terminal"
 				(path "/9d5c9b65-fa9a-4f2b-b8e4-a4447f224f28/6058d083-e7f5-4508-aa8b-d465d175758b"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 233.68 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c894fbf-c94e-4c69-a04f-610083aeda1f")
+		(property "Reference" "#PWR052"
+			(at 233.68 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 233.68 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6754a343-35c3-4781-a7e2-abe3a2ec1e79")
+		)
+		(instances
+			(project "GA_Fuelstation_Terminal"
+				(path "/9d5c9b65-fa9a-4f2b-b8e4-a4447f224f28/6058d083-e7f5-4508-aa8b-d465d175758b"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -5632,83 +5898,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 34.29 19.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67fa98d1-3bb2-4159-9455-1033ec56831d")
-		(property "Reference" "#PWR07"
-			(at 34.29 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 34.29 15.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 34.29 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d483a7cb-a0f5-478e-bb58-d7e10abea976")
-		)
-		(instances
-			(project "GA_Fuelstation_Terminal"
-				(path "/9d5c9b65-fa9a-4f2b-b8e4-a4447f224f28/6058d083-e7f5-4508-aa8b-d465d175758b"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 233.68 59.69 0)
 		(unit 1)
@@ -5944,83 +6133,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 233.68 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d7dc35f-a77e-4c41-81f9-fe26c91cbdbb")
-		(property "Reference" "#PWR04"
-			(at 233.68 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 233.68 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3abd6907-9d3e-4c58-9d38-b452f82eb38d")
-		)
-		(instances
-			(project "GA_Fuelstation_Terminal"
-				(path "/9d5c9b65-fa9a-4f2b-b8e4-a4447f224f28/6058d083-e7f5-4508-aa8b-d465d175758b"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 111.76 113.03 0)
 		(unit 1)
@@ -6202,7 +6314,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-S3-WROOM-1"
+		(property "Value" "ESP32-S3-WROOM-1U"
 			(at 113.7159 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6379,6 +6491,87 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 138.43 176.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9096b40e-efa2-42b1-957d-b55a337fccf4")
+		(property "Reference" "R28"
+			(at 131.318 175.514 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 131.318 178.308 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 136.652 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 138.43 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "286de9b9-4e9a-46a9-b575-0c6d458b5ef2")
+		)
+		(pin "1"
+			(uuid "08062d70-b105-4390-9619-dd0649203af9")
+		)
+		(instances
+			(project "GA_Fuelstation_Terminal"
+				(path "/9d5c9b65-fa9a-4f2b-b8e4-a4447f224f28/6058d083-e7f5-4508-aa8b-d465d175758b"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 148.59 144.78 0)
 		(unit 1)
 		(body_style 1)
@@ -6460,7 +6653,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 240.03 39.37 0)
+		(at 240.03 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6471,7 +6664,7 @@
 		(fields_autoplaced yes)
 		(uuid "a516e5ec-f791-4c9b-b95f-8c4ccf0c927d")
 		(property "Reference" "#PWR06"
-			(at 240.03 43.18 0)
+			(at 240.03 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6482,7 +6675,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 240.03 35.56 0)
+			(at 240.03 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6492,7 +6685,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 39.37 0)
+			(at 240.03 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6503,7 +6696,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 39.37 0)
+			(at 240.03 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6514,7 +6707,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 39.37 0)
+			(at 240.03 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6703,10 +6896,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bb38fdbc-b6bf-47bd-8b96-56c2020e6a32")
 		(property "Reference" "D1"
-			(at 133.35 156.845 90)
+			(at 125.73 155.956 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6716,8 +6908,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 133.35 159.385 90)
+		(property "Value" "1N4148W"
+			(at 120.142 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6727,7 +6919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 130.81 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -6771,6 +6963,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 130.81 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C81598"
 			(at 130.81 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -6975,7 +7178,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 179.07 0)
+		(at 148.59 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6986,7 +7189,7 @@
 		(fields_autoplaced yes)
 		(uuid "d45cabae-4c10-4301-888f-a1b50226e9a0")
 		(property "Reference" "#PWR025"
-			(at 148.59 185.42 0)
+			(at 148.59 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6997,7 +7200,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 184.15 0)
+			(at 148.59 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7007,7 +7210,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 179.07 0)
+			(at 148.59 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7018,7 +7221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 179.07 0)
+			(at 148.59 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7029,7 +7232,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 179.07 0)
+			(at 148.59 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
