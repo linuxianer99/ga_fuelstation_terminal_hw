@@ -2,6 +2,7 @@ production
 # Backup-Dateien
 *.bak
 *-bak
+*_old
 
 # Autosave
 *.k*c*d_sch-b*k
@@ -12,9 +13,11 @@ production
 
 # T*mporäre Dateien
 *.tmp
+*.lck
 
 # Plot-Ausg*ben
 plots/
+jlcpcb/
 
 # Backups
 *-backup

@@ -4238,7 +4238,7 @@
 			)
 		)
 	)
-	(global_label "MISO"
+	(global_label "RFID_MISO"
 		(shape output)
 		(at 162.56 82.55 0)
 		(fields_autoplaced yes)
@@ -4250,7 +4250,7 @@
 		)
 		(uuid "63420298-6194-4d62-823c-4bf6eab5a17b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.062 82.55 0)
+			(at 175.3424 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4286,7 +4286,7 @@
 			)
 		)
 	)
-	(global_label "MOSI"
+	(global_label "RFID_MOSI"
 		(shape output)
 		(at 162.56 77.47 0)
 		(fields_autoplaced yes)
@@ -4298,7 +4298,7 @@
 		)
 		(uuid "6b55a4cd-2ee8-421a-8922-66c36c5f7584")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.062 77.47 0)
+			(at 175.3424 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

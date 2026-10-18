@@ -63,6 +63,52 @@
 		)
 	)
 	(sheet
+		(at 99.06 38.1)
+		(size 46.99 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5c390488-d45b-4ef2-a073-15e25f367981")
+		(property "Sheetname" "LAN"
+			(at 99.06 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LAN.kicad_sch"
+			(at 99.06 93.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GA_Fuelstation_Terminal"
+				(path "/9d5c9b65-fa9a-4f2b-b8e4-a4447f224f28"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 33.02 111.76)
 		(size 44.45 48.26)
 		(exclude_from_sim no)
@@ -172,6 +218,52 @@
 			(project "GA_Fuelstation_Terminal"
 				(path "/9d5c9b65-fa9a-4f2b-b8e4-a4447f224f28"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 38.1)
+		(size 46.99 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c019e730-735f-48ab-8d3f-6492baa2144f")
+		(property "Sheetname" "USB2RS232"
+			(at 30.48 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb2rs232.kicad_sch"
+			(at 30.48 93.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GA_Fuelstation_Terminal"
+				(path "/9d5c9b65-fa9a-4f2b-b8e4-a4447f224f28"
+					(page "6")
 				)
 			)
 		)
