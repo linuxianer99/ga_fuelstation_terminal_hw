@@ -9584,7 +9584,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fba45aa1-e416-434b-958b-58d66b0d2533")
 		(property "Reference" "R10"
 			(at 49.53 156.21 90)
