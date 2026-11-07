@@ -8054,7 +8054,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-4_3.8x4.1mm_P2.54mm"
+		(property "Footprint" "Package_DIP:SMDIP-4_W9.53mm"
 			(at 148.59 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -8080,6 +8080,17 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 35V, DIP-4"
+			(at 153.67 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C63268"
 			(at 153.67 148.59 0)
 			(hide yes)
 			(show_name no)
