@@ -1861,6 +1861,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 30.48) (xy 107.95 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2541528-993f-4357-82fc-a06ae7aab6e8")
+	)
+	(wire
+		(pts
 			(xy 66.04 40.64) (xy 66.04 44.45)
 		)
 		(stroke
@@ -1938,6 +1948,16 @@
 			(type default)
 		)
 		(uuid "e7eaaa06-dd80-443c-96cf-c1f20da71aa0")
+	)
+	(wire
+		(pts
+			(xy 92.71 30.48) (xy 100.33 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edcc5ed5-1055-4227-8f0e-e6376db6c636")
 	)
 	(wire
 		(pts
@@ -2445,6 +2465,83 @@
 			(project "GA_Fuelstation_Terminal"
 				(path "/9d5c9b65-fa9a-4f2b-b8e4-a4447f224f28/93d867b5-46d3-4401-8a12-5d31278231a8"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 100.33 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37cffea4-8cbd-4b96-808e-ff3397381940")
+		(property "Reference" "#FLG01"
+			(at 100.33 32.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 100.33 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 100.33 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b704bc9-841e-43e9-b456-1b84d739fd9b")
+		)
+		(instances
+			(project "GA_Fuelstation_Terminal"
+				(path "/9d5c9b65-fa9a-4f2b-b8e4-a4447f224f28/93d867b5-46d3-4401-8a12-5d31278231a8"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -3496,102 +3593,5 @@
 				)
 			)
 		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 100.33 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "37cffea4-8cbd-4b96-808e-ff3397381940")
-		(property "Reference" "#FLG01"
-			(at 100.33 32.385 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 100.33 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 100.33 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4b704bc9-841e-43e9-b456-1b84d739fd9b")
-		)
-		(instances
-			(project "GA_Fuelstation_Terminal"
-				(path "/9d5c9b65-fa9a-4f2b-b8e4-a4447f224f28/93d867b5-46d3-4401-8a12-5d31278231a8"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 92.71 30.48) (xy 100.33 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edcc5ed5-1055-4227-8f0e-e6376db6c636")
-	)
-	(wire
-		(pts
-			(xy 100.33 30.48) (xy 107.95 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2541528-993f-4357-82fc-a06ae7aab6e8")
 	)
 )

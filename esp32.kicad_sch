@@ -4057,77 +4057,9 @@
 		(at 63.5 140.97)
 		(uuid "b68e365e-e99e-4e9a-902a-df382e174ba9")
 	)
-	(wire
-		(pts
-			(xy 157.48 87.63) (xy 171.45 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a9ab79d-61b5-4b39-a96e-6c178c057ce8")
-	)
-	(global_label "RFID_RST"
-		(shape output)
-		(at 171.45 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bc8e3586-1d5e-4253-b648-003c8884c804")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.3992 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(no_connect
 		(at 256.54 143.51)
 		(uuid "c00c3cfe-355b-402c-8acf-b3b0af231529")
-	)
-	(wire
-		(pts
-			(xy 157.48 90.17) (xy 171.45 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19082a3b-cbc4-46ac-bb0f-d79a6566295d")
-	)
-	(global_label "RFID_IRQ"
-		(shape input)
-		(at 171.45 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "df728ae1-14ad-4093-b2ce-73c418802fca")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.1573 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(no_connect
 		(at 157.48 95.25)
@@ -4204,6 +4136,26 @@
 			(type default)
 		)
 		(uuid "176b5c4f-3cbf-406f-8f8f-59e80b594b9d")
+	)
+	(wire
+		(pts
+			(xy 157.48 90.17) (xy 171.45 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19082a3b-cbc4-46ac-bb0f-d79a6566295d")
+	)
+	(wire
+		(pts
+			(xy 157.48 87.63) (xy 171.45 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a9ab79d-61b5-4b39-a96e-6c178c057ce8")
 	)
 	(wire
 		(pts
@@ -5641,6 +5593,30 @@
 			)
 		)
 	)
+	(global_label "RFID_RST"
+		(shape output)
+		(at 171.45 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc8e3586-1d5e-4253-b648-003c8884c804")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.3992 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "TCK"
 		(shape output)
 		(at 262.89 130.81 0)
@@ -5702,6 +5678,30 @@
 		(uuid "c97f49b5-3b5d-48c2-bf81-a791bb0ef08f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 183.3857 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "RFID_IRQ"
+		(shape input)
+		(at 171.45 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df728ae1-14ad-4093-b2ce-73c418802fca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.1573 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6668,9 +6668,17 @@
 				)
 			)
 		)
-    (property "LCSC" "C17168" (at 101.6 153.67 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "LCSC" "C17168"
+			(at 101.6 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "abda9885-e1c7-476c-968b-d43f8519a2c5")
 		)
@@ -6910,9 +6918,17 @@
 				)
 			)
 		)
-    (property "LCSC" "C17168" (at 101.6 158.75 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
+		(property "LCSC" "C17168"
+			(at 101.6 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a896f620-69f7-42f4-bc61-a489c77e4695")
 		)
