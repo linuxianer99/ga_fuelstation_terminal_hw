@@ -6399,7 +6399,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "3k3"
 			(at 241.3 42.545 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6798,7 +6798,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "22nF"
 			(at 220.98 60.325 0)
 			(show_name no)
 			(do_not_autoplace no)
