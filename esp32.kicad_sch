@@ -8577,4 +8577,24 @@
 			)
 		)
 	)
+	(label "DBG_USBC_DN"
+		(at 69.85 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3c12edb-cacc-4a46-9880-52f8e7a2b14c")
+	)
+	(label "DBG_USBC_DP"
+		(at 69.85 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a62041c3-e208-465d-9eac-feae1c8b5111")
+	)
 )
