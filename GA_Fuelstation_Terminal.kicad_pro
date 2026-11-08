@@ -74,14 +74,94 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
-        },
-        {
-          "gap": 0.2032,
-          "via_gap": 0.2032,
-          "width": 0.2906
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|113962200|122275600|86feaa89-d674-4b90-88c9-ed5fc374386f|52c33f1a-1a29-4ac7-ab06-35fdb532ac8f",
+          ""
+        ],
+        [
+          "silk_edge_clearance|113962200|122275600|86feaa89-d674-4b90-88c9-ed5fc374386f|93712c93-af34-4d26-88a5-b5ce67dd96e8",
+          ""
+        ],
+        [
+          "silk_edge_clearance|128567200|122275600|86feaa89-d674-4b90-88c9-ed5fc374386f|cdd62dea-6dbe-427d-a240-77eb05b55811",
+          ""
+        ],
+        [
+          "silk_edge_clearance|128567200|122275600|86feaa89-d674-4b90-88c9-ed5fc374386f|d2d7ea39-d1c8-47f2-90e5-1f43227ad391",
+          ""
+        ],
+        [
+          "silk_edge_clearance|145055310|122275600|86feaa89-d674-4b90-88c9-ed5fc374386f|aaf7d1d2-502b-4fd8-ae2b-83da51899669",
+          ""
+        ],
+        [
+          "silk_edge_clearance|161155310|122275600|86feaa89-d674-4b90-88c9-ed5fc374386f|f4060744-97a2-4626-ace6-88be3264271c",
+          ""
+        ],
+        [
+          "silk_edge_clearance|221526200|122275600|86feaa89-d674-4b90-88c9-ed5fc374386f|4cb1b24a-eddc-4dab-af2f-3307c249ce52",
+          ""
+        ],
+        [
+          "silk_edge_clearance|221526200|122275600|86feaa89-d674-4b90-88c9-ed5fc374386f|79dc649b-9771-4a0d-b2cf-6f9233127c29",
+          ""
+        ],
+        [
+          "silk_edge_clearance|87292200|122275600|86feaa89-d674-4b90-88c9-ed5fc374386f|4f875b04-0880-461a-bdd5-1051cd169b1e",
+          ""
+        ],
+        [
+          "silk_edge_clearance|87292200|122275600|86feaa89-d674-4b90-88c9-ed5fc374386f|9db53d66-0a3f-48d5-a8bb-c8aa4b3e8296",
+          ""
+        ],
+        [
+          "silk_overlap|104400209|108313504|6647d016-7048-40f0-8031-a8400d8932c8|ac457b99-fe93-475a-9bcb-c0eaa455de57",
+          ""
+        ],
+        [
+          "silk_overlap|107303905|108257446|651cba93-e34b-4b82-9673-014949bc5f8d|8e6658e6-8202-4ac5-a7e9-81d59f8895be",
+          ""
+        ],
+        [
+          "silk_overlap|112638969|101434100|4a4c0136-fe4e-46b9-878a-cacf93ce6e46|56c5bdd4-6de5-4317-ac2d-a62e58965702",
+          ""
+        ],
+        [
+          "silk_overlap|116661200|86248221|26a88c7e-e85a-4a3d-b13f-1836e0f47488|32842f52-a71b-4143-8272-0414f1bfbd19",
+          ""
+        ],
+        [
+          "silk_overlap|154995714|90693219|83205664-1830-4b44-9a58-c5bb84cb08a2|8e8bc3d9-4d3c-41de-be3e-62cb64ce8b6e",
+          ""
+        ],
+        [
+          "silk_overlap|72617619|103938294|004b9149-51c0-4451-a857-2f2ee7c38f71|5d5ce925-42aa-4455-bdf2-8641d13bf5dd",
+          ""
+        ],
+        [
+          "silk_overlap|76069866|111910600|9db53d66-0a3f-48d5-a8bb-c8aa4b3e8296|c0e630a4-03c4-4cce-9d35-e5aa698714d9",
+          ""
+        ],
+        [
+          "starved_thermal|136347200|70040600|eeff0333-6355-49d2-8f62-38dfa2431c7c|2002ec5a-a3ec-4db7-a692-e640a6bb3a3b|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|138252200|69570600|eeff0333-6355-49d2-8f62-38dfa2431c7c|dab9c046-18e4-4954-911e-1f8342aa2fb3|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|163271200|115626600|9326cca9-9d0d-4a73-be28-1dde2f5eceff|5d92228b-62a7-4913-a098-1304e47194a9|In1.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|172622200|82143600|9326cca9-9d0d-4a73-be28-1dde2f5eceff|08e374ac-c074-4d78-bfef-d5f8228d56a9|In1.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -224,8 +304,8 @@
         0.0,
         0.0,
         0.25,
-        1.0,
-        0.2906
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -690,25 +770,6 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.2032,
-        "diff_pair_width": 0.2906,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "USB_90R",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2906,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6,
-        "diff_pair_via_gap": 0.2032
       }
     ],
     "meta": {
@@ -736,18 +797,6 @@
       {
         "netclass": "RMII",
         "pattern": "/LAN/RMII_*"
-      },
-      {
-        "netclass": "USB_90R",
-        "pattern": "/USB2RS232/USB_D?"
-      },
-      {
-        "netclass": "USB_90R",
-        "pattern": "/ESP32/DEBUG_USB_D?"
-      },
-      {
-        "netclass": "USB_90R",
-        "pattern": "/ESP32/DBG_USBC_D?"
       }
     ]
   },

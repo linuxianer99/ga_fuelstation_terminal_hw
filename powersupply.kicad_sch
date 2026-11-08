@@ -1979,6 +1979,26 @@
 		)
 		(uuid "f6f09ac4-a361-4f6b-b847-373561696b50")
 	)
+	(label "+12V_FUSED"
+		(at 62.23 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4649c128-bab8-4715-8db7-9981d41f3e03")
+	)
+	(label "+12V_IN"
+		(at 36.83 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51d5b770-f79e-420a-9909-c206f5d00be0")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 171.45 106.68 0)

@@ -4997,6 +4997,16 @@
 		)
 		(uuid "6d6b2299-376a-45b7-a692-ae5cf8e09970")
 	)
+	(label "DBG_USBC_DP"
+		(at 69.85 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a62041c3-e208-465d-9eac-feae1c8b5111")
+	)
 	(label "DEBUG_USB_DN"
 		(at 176.53 44.45 180)
 		(effects
@@ -5016,6 +5026,16 @@
 			(justify right bottom)
 		)
 		(uuid "bfd12299-c818-424c-b998-1e9fb23ea48e")
+	)
+	(label "DBG_USBC_DN"
+		(at 69.85 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3c12edb-cacc-4a46-9880-52f8e7a2b14c")
 	)
 	(global_label "SCL"
 		(shape output)
@@ -6613,7 +6633,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "60817853-aaf6-4fd6-b704-37533c5f89cf")
 		(property "Reference" "R31"
 			(at 101.6 151.638 90)
@@ -6863,7 +6883,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "688fb5ee-fb87-47b3-81be-b139ee83dba2")
 		(property "Reference" "R32"
 			(at 101.6 161.036 90)
@@ -8576,25 +8596,5 @@
 				)
 			)
 		)
-	)
-	(label "DBG_USBC_DN"
-		(at 69.85 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c3c12edb-cacc-4a46-9880-52f8e7a2b14c")
-	)
-	(label "DBG_USBC_DP"
-		(at 69.85 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a62041c3-e208-465d-9eac-feae1c8b5111")
 	)
 )
