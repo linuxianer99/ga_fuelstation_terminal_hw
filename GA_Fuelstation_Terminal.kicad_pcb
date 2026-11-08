@@ -19718,6 +19718,18 @@
 		(layer "Edge.Cuts")
 		(uuid "86feaa89-d674-4b90-88c9-ed5fc374386f")
 	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 66.1416 76.0 90)
+		(layer "F.SilkS")
+		(uuid "fe917451-7b34-407c-af64-503752861f9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "C by Timo Bruderek"
 		(at 66.1416 92.2782 90)
 		(layer "F.SilkS")
