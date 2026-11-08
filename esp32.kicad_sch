@@ -4053,9 +4053,15 @@
 		(at 157.48 102.87)
 		(uuid "a15285ee-8a17-4ee2-8089-c93287e0f788")
 	)
-	(no_connect
-		(at 63.5 140.97)
-		(uuid "b68e365e-e99e-4e9a-902a-df382e174ba9")
+	(label "DBG_VBUS"
+		(at 63.5 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "efe80fa0-dde8-43c5-80e9-b5b2ecf00f82")
 	)
 	(no_connect
 		(at 256.54 143.51)
