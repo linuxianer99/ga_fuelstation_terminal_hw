@@ -256,4 +256,15 @@
 		(uuid "d403bd1c-ad20-401a-92e0-5b2f0001e695")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D/WIZ850IO--3DModel-STEP-269445.STEP"
+		(offset
+			(xyz 0 -6.1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

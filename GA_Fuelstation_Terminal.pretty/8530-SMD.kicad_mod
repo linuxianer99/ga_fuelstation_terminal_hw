@@ -27,4 +27,9 @@
     (thermal_bridge_angle 45) (tstamp 34b7689a-b49b-4206-8d62-9e827ad61319))
   (pad "4" smd roundrect (at 3.55 -3.55) (size 2.3 2.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
     (thermal_bridge_angle 45) (tstamp 58804854-81ed-46f2-99b4-92139bf31e66))
+  (model "${KIPRJMOD}/3D/MLT-8530_C94599.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )

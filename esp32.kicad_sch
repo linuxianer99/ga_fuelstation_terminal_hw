@@ -4053,16 +4053,6 @@
 		(at 157.48 102.87)
 		(uuid "a15285ee-8a17-4ee2-8089-c93287e0f788")
 	)
-	(label "DBG_VBUS"
-		(at 63.5 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "efe80fa0-dde8-43c5-80e9-b5b2ecf00f82")
-	)
 	(no_connect
 		(at 256.54 143.51)
 		(uuid "c00c3cfe-355b-402c-8acf-b3b0af231529")
@@ -5042,6 +5032,16 @@
 			(justify left bottom)
 		)
 		(uuid "c3c12edb-cacc-4a46-9880-52f8e7a2b14c")
+	)
+	(label "DBG_VBUS"
+		(at 63.5 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "efe80fa0-dde8-43c5-80e9-b5b2ecf00f82")
 	)
 	(global_label "SCL"
 		(shape output)
@@ -6203,6 +6203,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C165948"
+			(at 48.26 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A1"
 			(uuid "d947380d-fb4d-4f9c-9b7f-1efdc220a630")
 		)
@@ -6316,6 +6327,17 @@
 		)
 		(property "Description" ""
 			(at 241.3 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3405"
+			(at 241.3 133.35 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6451,6 +6473,17 @@
 		)
 		(property "Description" ""
 			(at 34.29 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 34.29 25.4 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6639,7 +6672,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "60817853-aaf6-4fd6-b704-37533c5f89cf")
 		(property "Reference" "R31"
 			(at 101.6 151.638 90)
@@ -6865,6 +6898,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 223.52 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4a1c0a0e-98bd-4ea3-96ae-7b8df919cfd9")
 		)
@@ -6889,7 +6933,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "688fb5ee-fb87-47b3-81be-b139ee83dba2")
 		(property "Reference" "R32"
 			(at 101.6 161.036 90)
@@ -7105,6 +7149,17 @@
 		)
 		(property "Description" ""
 			(at 247.65 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C28323"
+			(at 247.65 87.63 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7349,6 +7404,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C3013946"
+			(at 111.76 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f4ce88be-48ca-49bc-9c42-892df9332d69")
 		)
@@ -7535,6 +7601,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 71.12 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23186"
 			(at 71.12 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -7780,6 +7857,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23186"
+			(at 71.12 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5ced9303-ec11-455e-b176-c32e6e5b1445")
 		)
@@ -7853,6 +7941,17 @@
 		)
 		(property "Description" ""
 			(at 266.7 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C13585"
+			(at 266.7 87.63 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8009,6 +8108,17 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
+			(at 78.74 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C41399463"
 			(at 78.74 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -8178,6 +8288,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C161874"
+			(at 250.19 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "51f36f7f-548f-4ded-a724-ebb83a92b197")
 		)
@@ -8231,7 +8352,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF/16V"
 			(at 38.1 37.465 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8266,6 +8387,17 @@
 		)
 		(property "Description" ""
 			(at 34.29 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 34.29 35.56 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8424,6 +8556,17 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
+			(at 90.17 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C41399463"
 			(at 90.17 172.72 0)
 			(hide yes)
 			(show_name no)

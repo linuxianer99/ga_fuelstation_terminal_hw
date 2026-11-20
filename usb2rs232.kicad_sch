@@ -3843,6 +3843,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C165948"
+			(at 35.56 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A1"
 			(uuid "e7dbcda5-cf5d-4079-86c9-22ccb2c78608")
 		)
@@ -3962,6 +3973,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17168"
+			(at 130.81 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "552351a0-c1a2-42de-9c0c-e50fc9ba0f2c")
 		)
@@ -4031,6 +4053,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 129.54 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17168"
 			(at 129.54 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -4121,6 +4154,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C163478"
+			(at 86.36 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b4c54402-63da-4a48-9921-c29be559c6aa")
 		)
@@ -4193,6 +4237,17 @@
 			)
 		)
 		(property "Description" "USB to UART master bridge, QFN-28"
+			(at 185.42 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C964632"
 			(at 185.42 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4369,6 +4424,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C49581"
+			(at 105.41 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1b91fb39-270f-426f-9e14-5d529466bac7")
 		)
@@ -4444,6 +4510,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 158.75 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
 			(at 158.75 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -4694,6 +4771,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C49581"
+			(at 105.41 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "301dcd6e-f513-4c5c-a264-c5b28cca85dc")
 		)
@@ -4767,6 +4855,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 129.54 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17168"
 			(at 129.54 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4934,6 +5033,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23186"
+			(at 58.42 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0110c451-34d3-4add-9938-cc13638ec190")
 		)
@@ -5006,6 +5116,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 110.49 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
 			(at 110.49 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5164,6 +5285,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 76.2 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -5334,6 +5466,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 218.44 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d8f04836-21ca-47bb-9065-c927f0e7e756")
 		)
@@ -5406,6 +5549,17 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
+			(at 66.04 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C41399463"
 			(at 66.04 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5651,6 +5805,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23186"
+			(at 58.42 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b751df82-8d4e-4583-806a-92da44b2faca")
 		)
@@ -5721,6 +5886,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 76.2 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 76.2 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -5803,6 +5979,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 172.72 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C96446"
 			(at 172.72 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -5973,6 +6160,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C324818"
+			(at 100.33 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7a1fbc5a-7916-4f81-a84f-8e5471a9bbc3")
 		)
@@ -6045,6 +6243,17 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
+			(at 77.47 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C41399463"
 			(at 77.47 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6137,6 +6346,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C41399463"
+			(at 77.47 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "69cd46d5-ed32-4565-b92a-7026ed0d653d")
 		)
@@ -6206,6 +6426,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 199.39 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17168"
 			(at 199.39 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -6364,6 +6595,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 129.54 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17168"
 			(at 129.54 151.13 0)
 			(hide yes)
 			(show_name no)
